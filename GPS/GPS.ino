@@ -10,7 +10,7 @@
 */
 
 TinyGPS gps;
-SoftwareSerial ss(4, 5);
+SoftwareSerial ss(2, 3);
 
 static void smartdelay(unsigned long ms);
 static void print_float(float val, float invalid, int len, int prec);
